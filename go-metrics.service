@@ -1,0 +1,11 @@
+[Unit]
+Description=Go Metrics Server
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/go-metrics
+Restart=always
+User=nobody
+
+[Install]
+WantedBy=multi-user.target

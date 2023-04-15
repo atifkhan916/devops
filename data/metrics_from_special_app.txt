@@ -1,0 +1,3 @@
+metric1 value1
+metric2 value2
+metric3 value3
