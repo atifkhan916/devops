@@ -1,5 +1,10 @@
-To run a Go application using systemd, you can follow these steps:
+To run your application locally you have to run this commond 
+  go run main.go
 
+And hit the browser with http://localhost:12345/metrics
+
+To run a Go application using systemd, you can follow these steps:
+ 
 1. Create a systemd unit file: Create a new file in the /etc/systemd/system directory with
 a name ending in .service (e.g. my-go-app.service). This file will define the
 systemd service that will run your Go application.
